@@ -1,0 +1,32 @@
+.posts {
+  margin-bottom: 80px;
+  display: grid;
+  gap: 12px;
+}
+
+.post-img {
+  max-height: 172px;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+}
+
+.post > a {
+  color: var(--common-white);
+  position: relative;
+}
+
+.overlay {
+  border-radius: 0px 0px 16px 16px;
+
+  background-color: rgba(18, 18, 22, 0.5);
+  padding: 12px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.post-title {
+  color: var(--common-white);
+  font-family: var(--common-font);
+}
